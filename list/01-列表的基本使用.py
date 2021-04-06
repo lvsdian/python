@@ -79,3 +79,10 @@ heros.reverse()
 print(heros)
 print(heros[::-1])
 
+# for i in enumerate(heros):
+#    print("第{:d}个刺客是:{}".format(i, heros[i]))
+
+# 合并两个列表
+words1 = ["hello", "world"]
+words2 = ["yes", "ok"]
+print(words1 + words2)
